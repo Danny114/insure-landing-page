@@ -1,0 +1,11 @@
+.small-down--hide {
+    @media only screen and (max-width: 375px) {
+        display: none;
+    }
+}
+
+.medium-up--hide {
+    @media only screen and (min-width: 376px) {
+        display: none;
+    }
+}
